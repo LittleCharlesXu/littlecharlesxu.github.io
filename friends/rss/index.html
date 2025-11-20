@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1" theme-name="Stellar" theme-version="1.33.1">
   
-  <meta name="robots" content="noindex,follow">
+  <meta name="robots" content="noindex,nofollow">
   <meta name="generator" content="Hexo 8.1.1">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -17,15 +17,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>归档 - Charles‘ Pub</title>
+  <title>朋友文章 - Charles‘ Pub</title>
 
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://charlesxu.fun/archives/2025/11/">
+<meta property="og:title" content="朋友文章">
+<meta property="og:url" content="https://charlesxu.fun/friends/rss/">
 <meta property="og:site_name" content="Charles‘ Pub">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://charlesxu.fun/assets/icons/avatar.png">
+<meta property="article:published_time" content="2025-11-20T14:35:46.088Z">
+<meta property="article:modified_time" content="2025-11-20T14:35:46.088Z">
 <meta property="article:author" content="CharlesXu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://charlesxu.fun/assets/icons/avatar.png">
@@ -46,12 +48,12 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"https://charlesxu.fun","author":{"@type":"Person","name":"CharlesXu","sameAs":[],"image":"/assets/icons/avatar.png"},"name":"Charles‘ Pub","description":"","url":"https://charlesxu.fun"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"https://charlesxu.fun/friends/rss/","author":{"@type":"Person","name":"CharlesXu","sameAs":[],"image":"/assets/icons/avatar.png"},"name":"朋友文章","description":"","url":"https://charlesxu.fun/friends/rss/"}</script>
   <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 <body>
 
-<div class="l_body index" id="start" layout="undefined" type="undefined" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
+<div class="l_body index" id="start" layout="page" type="undefined" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><img no-lazy class="avatar" src="/assets/icons/avatar.png" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">Charles‘ Pub</div></a></div></header>
@@ -70,10 +72,14 @@
 
 <header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><img no-lazy class="avatar" src="/assets/icons/avatar.png" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">Charles‘ Pub</div></a></div></header>
 
- 
 
 
-<div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a href="/topic/">专栏</a><a class="active" href="/archives/">归档</a></nav></div></div></div><div class="post-list archives"><article class="" id="archive"><div class='archive-header h4'>2025</div><div class="archive-list"><a class='post fs14' href="/2025/11/19/hello-world/"><time>11-19</time><span>Hello World</span></a></div></article></div>
+
+<div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a href="/topic/">专栏</a><a href="/archives/">归档</a></nav></div></div></div>
+<article class="md-text content"><div class="tag-plugin timeline data-service ds-fcircle" data-api="https://raw.github.xaox.cc/xaoxuu/friends-rss-generator/output/data.json"></div></article>
+
+
+
 <footer class="page-footer footnote"><hr><div class="sitemap" style="column-count:4;"><div class="sitemap-group"><span class="fs15">博客</span><a href="/">近期发布</a><a href="/blog/categories/">分类</a><a href="/blog/archives/">归档</a></div><div class="sitemap-group"><span class="fs15">专栏</span><a href="/PaperReading/">PaperReading</a><a href="/">xxx</a><a href="/">xxx</a></div><div class="sitemap-group"><span class="fs15">好友</span><a href="/">xxx</a><a href="/">xxx</a><a href="/">xxx</a></div><div class="sitemap-group"><span class="fs15">关于</span><a href="/">本站简介</a><a href="/">备用站点</a><a href="/">Github</a></div></div><div class="text"><p>本站由 <a href="/">CharlesXu</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1">Stellar 1.33.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
@@ -571,6 +577,22 @@
 
 
 <!-- optional -->
+
+  <script type="module">
+  const el = document.getElementById('twikoo_container');
+  util.viewportLazyload(el, load_twikoo, true);
+
+  function load_twikoo() {
+    if (!el) return;
+    utils.js('https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js', {defer: true}).then(function () {
+      const path = el.getAttribute('comment_id') ?? decodeURI(window.location.pathname);
+      twikoo.init(Object.assign({"js":"https://gcore.jsdelivr.net/npm/twikoo@1.6/dist/twikoo.all.min.js","envId":"https://twikoo.charlesxu.fun/"}, {
+        el: '#twikoo_container',
+        path: path,
+      }));
+    });
+  }
+</script>
 
 
 
