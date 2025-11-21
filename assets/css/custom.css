@@ -57,3 +57,10 @@ blockquote:hover:before {
     pointer-events: none;
     border-radius: inherit;
 }
+
+h1, .h1, .md-text h1 { font-weight: 600 !important; }
+h2, .h2, .md-text h2 { font-weight: 600 !important; }
+h3, .h3, .md-text h3 { font-weight: 600 !important; }
+h4, .h4, .md-text h4 { font-weight: 600 !important; }
+h5, .h5, .md-text h5 { font-weight: 600 !important; }
+h6, .h6, .md-text h6 { font-weight: 600 !important; }
